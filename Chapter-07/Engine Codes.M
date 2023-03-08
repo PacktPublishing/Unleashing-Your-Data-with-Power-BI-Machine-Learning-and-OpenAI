@@ -1,4 +1,4 @@
-/*An M query for Engine Codes in the Raw Data group of the Reference Data dataflow*/
+/*An M query for Engine Codes in the Raw Data group of the Reference Data dataflow. Make sure you modify the url string component for "YOUR_ONEDRIVE_URL" */
 let
   Source = Excel.Workbook(Web.Contents("https://YOUR_ONEDRIVE_URL/read_me.xlsx"), null, true),
   #"Navigation 1" = Source{[Item = "Engine Codes", Kind = "Sheet"]}[Data],
