@@ -1,4 +1,4 @@
-/*An M query for Aircraft Type Added Data in the Raw Data group of the Reference Data dataflow.*/
+/*An M query for Aircraft Type in the Curated Data group of the Reference Data dataflow.*/
 let
   Source = #"Aircraft Type",
   #"Promoted headers" = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
