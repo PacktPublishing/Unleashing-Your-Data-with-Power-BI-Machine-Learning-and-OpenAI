@@ -1,3 +1,5 @@
+/* An M query for Dataflows that will create training and testing data for Power BI ML to predict the size of wildlife that struck an aircraft for an incident. Place this script in the ML Queries dataflow and be sure to reference the Strike Reports Curated query from the Strike Reports dataflow as a query before deploying this script. */
+
 let
     Source = #"Strike Reports Curated",
     #"Filtered Rows" = Table.SelectRows(Source, each ([Airport ID] = "KCLT" or [Airport ID] = "KDEN" or [Airport ID] = "KDFW" or [Airport ID] = "KLGA" or [Airport ID] = "KMCO" or [Airport ID] = "KMEM" or [Airport ID] = "KORD" or [Airport ID] = "KPHL" or [Airport ID] = "KSDF" or [Airport ID] = "KSMF") and [Aircraft Class Code] = "A  "),
