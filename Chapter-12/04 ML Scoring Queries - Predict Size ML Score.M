@@ -1,0 +1,1 @@
+/* This query will reference the Strike Reports Curated New query in the Sources group of the ML Queries dataflow. It should be named Predict Size ML Score. */
