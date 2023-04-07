@@ -1,0 +1,6 @@
+require("corrplot")
+library(corrplot)
+
+M <- cor(dataset)
+
+corrplot(M, tl.cex=0.6, tl.srt = 45, tl.col = "black")
