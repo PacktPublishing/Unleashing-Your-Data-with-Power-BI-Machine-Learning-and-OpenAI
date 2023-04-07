@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt 
+dataset.plot(kind='hist',y='Height',color='black')
+plt.xlabel("Height")
+plt.ylabel("Incidents")
+plt.title("Height for Incidents with Damage")
+plt.show()
