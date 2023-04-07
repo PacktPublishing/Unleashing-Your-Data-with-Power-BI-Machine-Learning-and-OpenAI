@@ -1,0 +1,6 @@
+import matplotlib.pyplot as plt 
+dataset.plot(kind='hist',y='Speed')
+plt.xlabel("Speed")
+plt.ylabel("Incidents")
+plt.title("Speed for Incidents with Damage")
+plt.show()
