@@ -9,8 +9,8 @@ let
     #"Replaced Value1" = Table.ReplaceValue(#"Replaced Value",null,0,Replacer.ReplaceValue,{"Total Costs Adjusted"}),
     #"Added custom" = Table.TransformColumnTypes(Table.AddColumn(#"Replaced Value1", "Month", each Date.Month([Incident Date])), {{"Month", Int64.Type}}),
     #"Removed columns" = Table.RemoveColumns(#"Added custom", {"Incident Date"}),
-    #"Merged queries" = Table.NestedJoin(#"Removed columns", {"Species ID"}, #"Top 40", {"Species ID"}, "Top 40", JoinKind.LeftOuter),
-    #"Expanded Top 40" = Table.ExpandTableColumn(#"Merged queries", "Top 40", {"Count"}, {"Count"}),
-    #"Removed columns 1" = Table.RemoveColumns(#"Expanded Top 40", {"Count"})
+    #"Merged queries" = Table.NestedJoin(#"Removed columns", {"Species ID"}, #"Top 40 Species", {"Species ID"}, "Top 40 Species", JoinKind.LeftOuter),
+    #"Expanded Top 40 Species" = Table.ExpandTableColumn(#"Merged queries", "Top 40 Species", {"Count"}, {"Count"}),
+    #"Removed columns 1" = Table.RemoveColumns(#"Expanded Top 40 Species", {"Count"})
 in
     #"Removed columns 1"
