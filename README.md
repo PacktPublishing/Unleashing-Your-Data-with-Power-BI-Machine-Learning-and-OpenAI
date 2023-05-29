@@ -58,5 +58,5 @@ With the following software and hardware list you can run all code files present
 
 * Azure Machine Learning Engineering [[Packt]](https://www.packtpub.com/product/azure-machine-learning-engineering/9781803239309) [[Amazon]](https://www.amazon.in/Azure-Machine-Learning-Engineering-fine-tune/dp/1803239301)
 
-## Get to Know the Author(s)
+## Get to Know the Author
 **Greg Beaumont**  is a data architect at Microsoft, where he is tasked with solving complex problems and creating value for his customers. Focusing on the healthcare industry, Greg works closely with customers to plan enterprise analytics strategies, evaluate new tools and products, conduct training sessions and hackathons, and architect solutions that improve the quality of care and reduce costs. With years of experience in data architecture and a passion for innovation, Greg enjoys identifying and solving complex challenges. He strives to be a trusted advisor to his customers and is always seeking new ways to drive progress and help organizations thrive. He is a veteran of the Microsoft data speaker network and has worked with hundreds of customers on their data management and analytics strategies.
