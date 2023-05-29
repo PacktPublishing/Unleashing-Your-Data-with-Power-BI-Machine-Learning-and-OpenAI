@@ -45,7 +45,7 @@ With the following software and hardware list you can run all code files present
 
 | Chapter  | Software required                                                                    | OS required                        |
 | -------- | -------------------------------------------------------------------------------------| -----------------------------------|
-|1-6  		  | Power BI Desktop – April 2023 or newer   							                                            			  | Windows, Mac OS X, and Linux (Any) |
+|1-6  		  | Power BI Desktop – April 2023 or newer   							                                            			  | Windows |
 | 7-13         |   	Power BI cloud service                                                         |                        Web Browser            |
 |1-13  |Python – version compatible with Power BI Desktop Windows                                   | Windows|
 |1-13 | R – version compatible with Power BI Desktop                                                | Windows |
