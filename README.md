@@ -1,8 +1,8 @@
 # Unleashing Your Data with Power BI Machine Learning and OpenAI	
 
-<a href="<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>"><img src="https://static.packt-cdn.com/products/<13-P ISBN>/cover/smaller" alt="Unleashing Your Data with Power BI Machine Learning and OpenAI" height="256px" align="right"></a>
+<a href="https://www.packtpub.com/product/machine-learning-with-microsoft-power-bi/9781837636150"><img src="https://content.packt.com/B19500/cover_image_small.jpg" alt="Unleashing Your Data with Power BI Machine Learning and OpenAI" height="256px" align="right"></a>
 
-This is the code repository for [Unleashing Your Data with Power BI Machine Learning and OpenAI	](<Packtpub book link>?utm_source=github&utm_medium=repository&utm_campaign=<13-P ISBN>), published by Packt.
+This is the code repository for [Unleashing Your Data with Power BI Machine Learning and OpenAI	](https://www.packtpub.com/product/machine-learning-with-microsoft-power-bi/9781837636150), published by Packt.
 
 **Embark on a data adventure and turn your raw data into meaningful insights**
 
