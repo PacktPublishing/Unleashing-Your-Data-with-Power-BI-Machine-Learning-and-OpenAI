@@ -1,3 +1,11 @@
+
+### [Packt Conference : Put Generative AI to work on Oct 11-13 (Virtual)](https://packt.link/JGIEY)
+
+<b><p align='center'>[![Packt Conference](https://hub.packtpub.com/wp-content/uploads/2023/08/put-generative-ai-to-work-packt.png)](https://packt.link/JGIEY)</p></b> 
+3 Days, 20+ AI Experts, 25+ Workshops and Power Talks 
+
+Code: <b>USD75OFF</b>
+
 # Unleashing Your Data with Power BI Machine Learning and OpenAI	
 
 <a href="https://www.packtpub.com/product/machine-learning-with-microsoft-power-bi/9781837636150"><img src="https://content.packt.com/B19500/cover_image_small.jpg" alt="Unleashing Your Data with Power BI Machine Learning and OpenAI" height="256px" align="right"></a>
